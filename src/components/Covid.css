@@ -59,3 +59,101 @@
   justify-content: space-evenly;
   margin-left: 22em;
 }
+
+.case__title {
+  color: grey;
+  font-size: 15px;
+}
+.case__result {
+  font-size: 15px;
+}
+
+@media (max-width: 767px) {
+  .covid__side__navbar {
+    margin-top: 3.75em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #152251;
+    width: 40%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    overflow: scroll;
+  }
+  .title {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+  }
+  .show__covid__card {
+    padding: 1.5rem;
+    box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-color: #152251;
+    width: 70%;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .show__covid__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 15em;
+  }
+  .case__title {
+    color: grey;
+    font-size: 10px;
+  }
+  .case__result {
+    font-size: 12px;
+  }
+  .covid__card {
+    margin: 1em;
+    padding: 1.5rem;
+    box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-color: #152251;
+    width: 90%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+  .activecard {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+  .covid__side__navbar {
+    margin-top: 3.75em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #152251;
+    width: 40%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    overflow: scroll;
+  }
+  .title {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+  }
+  .show__covid__card {
+    padding: 1.5rem;
+    box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-color: #152251;
+    width: 60%;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .show__covid__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 18em;
+  }
+}

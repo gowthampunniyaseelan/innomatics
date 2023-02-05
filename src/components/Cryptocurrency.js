@@ -41,12 +41,16 @@ function Cryptocurrency() {
   return (
     <div className="crypto__container">
       <div className="side__navbar">
-        <h3 style={{
+        <h3
+          style={{
             textTransform: "uppercase",
             color: "#fff",
             fontWeight: 700,
             textAlign: "center",
-          }}>Cryptocurrency Dashboard</h3>
+          }}
+        >
+          Cryptocurrency Dashboard
+        </h3>
         {datas.map((data, index) => (
           <div
             key={data.id}

@@ -48,14 +48,9 @@ function Covid() {
       </div>
       <div className="show__covid__cards">
         <div className="show__covid__card">
-          <h5
-            style={{
-              color: "grey",
-            }}
-          >
-            NAME
-          </h5>
+          <h5 className="case__title">NAME</h5>
           <h2
+            className="case__result"
             style={{
               color: "#fff",
             }}
@@ -64,14 +59,9 @@ function Covid() {
           </h2>
         </div>
         <div className="show__covid__card">
-          <h5
-            style={{
-              color: "grey",
-            }}
-          >
-            CONFIRMEDCASESFOREIGN
-          </h5>
+          <h5 className="case__title">CONFIRMEDCASESFOREIGN</h5>
           <h2
+            className="case__result"
             style={{
               color: "orange",
             }}
@@ -80,14 +70,9 @@ function Covid() {
           </h2>
         </div>
         <div className="show__covid__card">
-          <h5
-            style={{
-              color: "grey",
-            }}
-          >
-            CONFIRMEDCASESINDIAN
-          </h5>
+          <h5 className="case__title">CONFIRMEDCASESINDIAN</h5>
           <h2
+            className="case__result"
             style={{
               color: "orange",
             }}
@@ -96,14 +81,9 @@ function Covid() {
           </h2>
         </div>
         <div className="show__covid__card">
-          <h5
-            style={{
-              color: "grey",
-            }}
-          >
-            DEATHS
-          </h5>
+          <h5 className="case__title">DEATHS</h5>
           <h2
+            className="case__result"
             style={{
               color: "red",
             }}
@@ -112,14 +92,9 @@ function Covid() {
           </h2>
         </div>
         <div className="show__covid__card">
-          <h5
-            style={{
-              color: "grey",
-            }}
-          >
-            DISCHARGED
-          </h5>
+          <h5 className="case__title">DISCHARGED</h5>
           <h2
+            className="case__result"
             style={{
               color: "green",
             }}
@@ -128,14 +103,9 @@ function Covid() {
           </h2>
         </div>
         <div className="show__covid__card">
-          <h5
-            style={{
-              color: "grey",
-            }}
-          >
-            TOTALCONFIRMED
-          </h5>
+          <h5 className="case__title">TOTALCONFIRMED</h5>
           <h2
+            className="case__result"
             style={{
               color: "orange",
             }}

@@ -67,7 +67,7 @@
   width: 90%;
   cursor: pointer;
   color: #fff;
-  background-color: rgba(196,199,204,.2);
+  background-color: rgba(196, 199, 204, 0.2);
   border-radius: 5px;
 }
 
@@ -78,14 +78,14 @@
   width: 50px;
   height: 50px;
 }
-.show__data{
-    font-style: "italic";
-    color: "#fff";
-    font-weight: 700;
-    margin-left: 0.2em;
+.show__data {
+  font-style: "italic";
+  color: "#fff";
+  font-weight: 700;
+  margin-left: 0.2em;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .side__navbar {
     margin-top: 3.75em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -118,7 +118,7 @@
     width: 90%;
     cursor: pointer;
     color: #fff;
-    background-color: rgba(196,199,204,.2);
+    background-color: rgba(196, 199, 204, 0.2);
     border-radius: 5px;
   }
   .card2:hover {
@@ -140,8 +140,7 @@
   }
 }
 
-
-@media  (min-width: 767px) and (max-width: 1023px)  {
+@media (min-width: 767px) and (max-width: 1023px) {
   .side__navbar {
     margin-top: 3.75em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -174,7 +173,7 @@
     width: 90%;
     cursor: pointer;
     color: #fff;
-    background-color: rgba(196,199,204,.2);
+    background-color: rgba(196, 199, 204, 0.2);
     border-radius: 5px;
   }
   .card2:hover {

@@ -36,8 +36,8 @@ function Product() {
             <p
               style={{
                 color: "#fff",
-                fontSize:"12px",
-                lineHeight:"20px"
+                fontSize: "12px",
+                lineHeight: "20px",
               }}
             >
               {data.description}
@@ -45,7 +45,7 @@ function Product() {
             <h5>{data.category}</h5>
             <h2
               style={{
-                fontWeight:700
+                fontWeight: 700,
               }}
             >
               $ {data.price}

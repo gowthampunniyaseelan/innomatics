@@ -1,9 +1,9 @@
-.card__container{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
+.card__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-.home__card{
+.home__card {
   display: flex;
   justify-content: space-between;
   margin: 0.5em;
@@ -16,12 +16,12 @@ justify-content: space-evenly;
   cursor: pointer;
   color: #fff;
 }
-.title__container{
+.title__container {
   text-align: center;
 }
 
-@media (max-width:767px) {
-  .home__card{
+@media (max-width: 767px) {
+  .home__card {
     display: flex;
     justify-content: space-between;
     margin: 0.5em;

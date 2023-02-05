@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useEffect, useRef, useState } from "react";
 import axios from "axios";
-import "./Nasa.css"
+import "./Nasa.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 function Nasa() {
@@ -34,7 +34,7 @@ function Nasa() {
         <p>Version : {data.service_version ? data.service_version : "None"}</p>
         <h2>Description</h2>
         <p>{data.explanation ? data.explanation : "None"}</p>
-        <img src={data.hdurl} alt="image"/>
+        <img src={data.hdurl} alt="image" />
       </div>
       <ToastContainer
         position="bottom-right"
