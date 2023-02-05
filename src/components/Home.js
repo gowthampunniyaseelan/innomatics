@@ -18,7 +18,7 @@ function Home() {
           window.location.href = "/cryptocurrency"
         }}>
           <CurrencyBitcoinIcon />
-          CRYPTO CURRENCY
+          CRYPTO
         </div>
         <div className="home__card" onClick={()=>{
           window.location.href = "/nasa"
