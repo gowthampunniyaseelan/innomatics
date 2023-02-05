@@ -154,10 +154,10 @@
   .crypto__title {
     font-size: 10px;
   }
-  .card>div{
+  .card > div {
     margin-bottom: 2.18em;
   }
-  .card_image{
+  .card_image {
     margin-bottom: 2.18em;
   }
 }
@@ -240,7 +240,6 @@
     font-size: 12px;
   }
 }
-
 
 @media (min-width: 800px) and (max-width: 1022px) {
   .side__navbar {

@@ -14,27 +14,39 @@ function Home() {
       </div>
 
       <div className="card__container">
-        <div className="home__card" onClick={()=>{
-          window.location.href = "/cryptocurrency"
-        }}>
+        <div
+          className="home__card"
+          onClick={() => {
+            window.location.href = "/cryptocurrency";
+          }}
+        >
           <CurrencyBitcoinIcon />
           CRYPTO
         </div>
-        <div className="home__card" onClick={()=>{
-          window.location.href = "/nasa"
-        }}>
+        <div
+          className="home__card"
+          onClick={() => {
+            window.location.href = "/nasa";
+          }}
+        >
           <RocketLaunchIcon />
           NASA
         </div>
-        <div className="home__card" onClick={()=>{
-          window.location.href = "/covid"
-        }}>
+        <div
+          className="home__card"
+          onClick={() => {
+            window.location.href = "/covid";
+          }}
+        >
           <CoronavirusIcon />
           CORONO
         </div>
-        <div className="home__card" onClick={()=>{
-          window.location.href = "/product"
-        }}>
+        <div
+          className="home__card"
+          onClick={() => {
+            window.location.href = "/product";
+          }}
+        >
           <LocalMallIcon />
           E-COMMERCE
         </div>

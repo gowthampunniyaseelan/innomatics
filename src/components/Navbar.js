@@ -22,12 +22,12 @@ function Navbar() {
               to="/cryptocurrency"
               activeClassName="active"
             >
-              <CurrencyBitcoinIcon /> 
+              <CurrencyBitcoinIcon />
             </NavLink>
           </li>
           <li>
             <NavLink title="Nasa" to="/nasa" activeClassName="active">
-              <RocketLaunchIcon /> 
+              <RocketLaunchIcon />
             </NavLink>
           </li>
           <li>
