@@ -112,7 +112,7 @@
     cursor: pointer;
     border-radius: 5px;
     color: #fff;
-    font-size: 12px;
+    font-size: 10px;
   }
   .activecard {
     display: flex;
@@ -131,12 +131,12 @@
     transform: scale(1.1);
   }
   .card {
-    margin-left: 28em;
+    margin-left: 20em;
     padding: 1.5rem;
     box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     background-color: #152251;
-    width: 50%;
+    width: 70%;
     height: 100%;
     border-radius: 5px;
     cursor: pointer;
@@ -144,11 +144,11 @@
     font-size: 8px;
   }
   .image {
-    width: 30%;
-    height: 30%;
+    width: 32px;
+    height: 32px;
   }
   .crypto__title {
-    font-size: 15px;
+    font-size: 10px;
   }
 }
 @media (min-width: 610px) and (max-width: 760px) {

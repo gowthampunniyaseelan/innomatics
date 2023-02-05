@@ -83,14 +83,14 @@
     text-transform: uppercase;
     text-align: center;
     color: #fff;
-    font-size: 15px;
+    font-size: 10px;
   }
   .show__covid__card {
     padding: 1.5rem;
     box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     background-color: #152251;
-    width: 70%;
+    width: 80%;
     cursor: pointer;
     border-radius: 5px;
   }
@@ -98,7 +98,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-left: 15em;
+    margin-left: 9em;
   }
   .case__title {
     color: grey;
@@ -116,11 +116,11 @@
     width: 90%;
     color: #fff;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 10px;
     border-radius: 5px;
   }
   .activecard {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
