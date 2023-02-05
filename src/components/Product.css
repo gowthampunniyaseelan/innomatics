@@ -1,0 +1,25 @@
+.product__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.product__card {
+  margin: 1em;
+  padding: 1.5rem;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border-radius: 5px;
+  width: 30%;
+  background-color: #152251;
+  cursor: pointer;
+  color: #fff;
+}
+.product__image {
+  width: 50%;
+  margin-left: 5em;
+  border-radius: 5px;
+}
+
+/* .product__card:hover {
+ opacity: 0.9;
+} */

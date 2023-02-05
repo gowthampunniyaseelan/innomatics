@@ -1,0 +1,17 @@
+.show__container {
+  margin: auto;
+  padding: 1.5rem;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 70%;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #152251;
+  color: #fff;
+}
+
+.show__container > img {
+  text-align: center;
+  width: 50%;
+  height: 50%;
+}

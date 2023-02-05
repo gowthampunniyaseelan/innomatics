@@ -1,0 +1,61 @@
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+.covid__card {
+  margin: 1em;
+  padding: 1.5rem;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: #152251;
+  width: 90%;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.covid__card:hover {
+  transform: scale(1.1);
+}
+.covid__side__navbar {
+  margin-top: 3.75em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #152251;
+  width: 25%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  overflow: scroll;
+}
+
+.covid__side__navbar::-webkit-scrollbar {
+  width: 0.2em;
+  background-color: #f5f5f5;
+}
+
+.covid__side__navbar::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+
+.covid__side__navbar::-webkit-scrollbar-thumb:hover {
+  background-color: #555555;
+}
+
+.show__covid__card {
+  margin: 1em;
+  padding: 1.5rem;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: #152251;
+  width: 30%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.show__covid__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 22em;
+}
