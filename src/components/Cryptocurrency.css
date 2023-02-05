@@ -131,12 +131,12 @@
     transform: scale(1.1);
   }
   .card {
-    margin-left: 20em;
+    margin-left: 19.8em;
     padding: 1.5rem;
     box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     background-color: #152251;
-    width: 70%;
+    width: 90%;
     height: 100%;
     border-radius: 5px;
     cursor: pointer;
@@ -149,6 +149,12 @@
   }
   .crypto__title {
     font-size: 10px;
+  }
+  .card>div{
+    margin-bottom: 2.18em;
+  }
+  .card_image{
+    margin-bottom: 2.18em;
   }
 }
 @media (min-width: 610px) and (max-width: 760px) {
